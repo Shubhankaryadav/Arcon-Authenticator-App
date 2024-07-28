@@ -54,7 +54,8 @@ const SettingsScreen = () => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: 'center', alignItems: 'center', padding: 16 },
+  container: { flex: 1, justifyContent: 'flex-start', alignItems: 'center', padding: 16, paddingTop: 50 },
+  title: { fontSize: 20, fontWeight: 'bold', marginBottom: 16 },
   input: { borderWidth: 1, padding: 8, marginVertical: 8, width: '100%' },
 });
 
